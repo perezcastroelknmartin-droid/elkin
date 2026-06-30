@@ -1,0 +1,12 @@
+class Smartphone:
+    def __init__(self, marca, modelo, ram):
+        self.marca = marca
+        self.modelo = modelo
+        self.ram = ram
+
+    def encender(self):
+        print(f"El {self.marca} {self.modelo} se ha encendido.")
+
+telefono = Smartphone("Samsung", "Galaxy S24", "8 GB")
+
+telefono.encender()
