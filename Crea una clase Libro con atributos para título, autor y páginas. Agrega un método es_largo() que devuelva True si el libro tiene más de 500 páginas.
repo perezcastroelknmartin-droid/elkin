@@ -1,0 +1,12 @@
+class Libro:
+    def __init__(self, titulo, autor, paginas):
+        self.titulo = titulo
+        self.autor = autor
+        self.paginas = paginas
+
+    def es_largo(self):
+        return self.paginas > 500
+
+libro = Libro("Python", "Juan Pérez", 600)
+
+print(libro.es_largo())
