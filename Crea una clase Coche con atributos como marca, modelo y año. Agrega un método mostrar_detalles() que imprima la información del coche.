@@ -1,0 +1,13 @@
+class Coche:
+    def __init__(self, marca, modelo, anio):
+        self.marca = marca
+        self.modelo = modelo
+        self.anio = anio
+
+    def mostrar_detalles(self):
+        print("Marca:", self.marca)
+        print("Modelo:", self.modelo)
+        print("Año:", self.anio)
+
+c1 = Coche("Toyota", "Corolla", 2023)
+c1.mostrar_detalles()
